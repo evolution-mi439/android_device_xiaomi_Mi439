@@ -10,6 +10,12 @@ TARGET_EXCLUDE_CRYPTFSHW := true
 # Gatekeeper
 TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
 
+
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+RemovePackages
+
 # Keymaster
 TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 
